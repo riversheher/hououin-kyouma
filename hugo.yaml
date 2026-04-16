@@ -1,0 +1,31 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'Hououin Kyouma'
+theme: 'LeTerminal'
+
+params:
+  terminalTitle: "kyouma@FGL:~"
+  siteName: "Hououin Kyouma"
+  siteVersion: "v1.0.0"
+  profileName: "Hououin Kyouma"
+  profileSubtitle: "Mad Scientist | Founder of Future Gadget Lab"
+  profileBio: >
+    Behold, I am Hououin Kyouma, mad scientist. Be careful, the organization's agents are everywhere. 
+    They may be watching you right now. By visiting my site, you have already been marked as a potential target.  Yes, you heard that right.
+    But don't worry.  I, Hououin Kyouma, and my lab members will protect you from the organization's agents.  We will fight
+    against them and expose their evil plans.  We will not let them win.  We will not let them silence us.  We will not let them destroy our future.
+  profileInitials: "HK"
+
+commands:
+    - name: "help"
+      label: "help"
+      description: "Show available commands"
+
+# Output configuration — required for HTMX fragment rendering.
+# The 'fragment' outputFormat is defined by the theme; only 'outputs' is needed here.
+outputs:
+  home:
+    - HTML
+  page:
+    - HTML
+    - fragment
