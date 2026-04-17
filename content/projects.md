@@ -1,7 +1,8 @@
 ---
 title: "projects"
-author: "John Developer"
-updated: 2026-04-12
+author: "Hououin Kyouma"
+updated: 2011-04-12
+created: 2011-04-12
 ---
 
 ## 🚀 Projects
