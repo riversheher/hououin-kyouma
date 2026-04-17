@@ -17,6 +17,11 @@ params:
   profileInitials: "HK"
   profileImage: "images/okabe-profile.jpg"
 
+  background:
+    image: "https://fedoraproject.org/w/uploads/9/98/F44-wallpaper_day_%28small%29.png"
+    darkImage: "https://fedoraproject.org/w/uploads/6/68/F44-wallpaper_night_%28small%29.png"
+    lightImage: "https://fedoraproject.org/w/uploads/9/98/F44-wallpaper_day_%28small%29.png"
+
   commands:
     - name: "help"
       label: "help"
