@@ -15,11 +15,21 @@ params:
     But don't worry.  I, Hououin Kyouma, and my lab members will protect you from the organization's agents.  We will fight
     against them and expose their evil plans.  We will not let them win.  We will not let them silence us.  We will not let them destroy our future.
   profileInitials: "HK"
+  profileImage: "images/okabe-profile.jpg"
 
-commands:
+  commands:
     - name: "help"
       label: "help"
       description: "Show available commands"
+    - name: "about"
+      label: "about"
+      description: "Learn more about me"
+    - name: "projects"
+      label: "projects"
+      description: "View my projects"
+    - name: "contact"
+      label: "contact"
+      description: "Get in touch with me"
 
 # Output configuration — required for HTMX fragment rendering.
 # The 'fragment' outputFormat is defined by the theme; only 'outputs' is needed here.
